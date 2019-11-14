@@ -1,0 +1,39 @@
+﻿빌드 시작: 2019-11-14 오후 6:56:13
+     1>2 노드의 "C:\Users\User\Documents\Visual Studio 2010\Projects\2048\2048\2048.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\2048.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt 2048.c Console.c
+         Console.c
+         2048.c
+     1>c:\users\user\documents\visual studio 2010\projects\2048\2048\2048.c(45): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\user\documents\visual studio 2010\projects\2048\2048\2048.c(59): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\user\documents\visual studio 2010\projects\2048\2048\2048.c(63): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\user\documents\visual studio 2010\projects\2048\2048\2048.c(254): warning C4129: ' ' : 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+         코드를 생성하고 있습니다...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\2048.exe.embed.manifest.res" Debug\2048_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Documents\Visual Studio 2010\Projects\2048\Debug\2048.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\2048.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\User\Documents\Visual Studio 2010\Projects\2048\Debug\2048.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Documents\Visual Studio 2010\Projects\2048\Debug\2048.lib" /MACHINE:X86 Debug\2048.exe.embed.manifest.res
+         Debug\2048.obj
+         Debug\Console.obj
+       Manifest:
+         "Debug\2048.exe.embed.manifest" 파일을 삭제하고 있습니다.
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\2048.exe.embed.manifest" /manifest Debug\2048.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\2048.exe.embed.manifest.res" Debug\2048_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Documents\Visual Studio 2010\Projects\2048\Debug\2048.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\2048.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\User\Documents\Visual Studio 2010\Projects\2048\Debug\2048.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Documents\Visual Studio 2010\Projects\2048\Debug\2048.lib" /MACHINE:X86 Debug\2048.exe.embed.manifest.res
+         Debug\2048.obj
+         Debug\Console.obj
+         2048.vcxproj -> C:\Users\User\Documents\Visual Studio 2010\Projects\2048\Debug\2048.exe
+       FinalizeBuildStatus:
+         "Debug\2048.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\2048.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Users\User\Documents\Visual Studio 2010\Projects\2048\2048\2048.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:05.43
